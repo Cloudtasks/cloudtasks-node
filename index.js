@@ -1,4 +1,2 @@
-'use strict';
-module.exports = function (str) {
-  console.log(str || 'Rainbow');
-};
+// Convenience file to require the SDK from the root of the repository
+module.exports = require('./lib/index');
