@@ -1,0 +1,39 @@
+{
+  "name": "cloudtasks-node",
+  "version": "0.0.0",
+  "description": "Cloudtasks.io nodeJS SDK",
+  "homepage": "https://cloudtasks.io",
+  "author": {
+    "name": "João Ribeiro",
+    "email": "jonnybgod@gmail.com",
+    "url": "https://jonnybgod.ghost.io"
+  },
+  "repository": "Cloudtasks/cloudtasks-node",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cloudtasks-node",
+    "sdk",
+    "prerender",
+    "image processing",
+    "cloudtasks"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0",
+    "browserify": "^7.0.0"
+  },
+  "scripts": {
+    "test": "grunt",
+    "browser": "browserify index.js > browser.js"
+  }
+}
