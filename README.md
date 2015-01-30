@@ -13,20 +13,23 @@ $ npm install --save cloudtasks-node
 ## Usage
 
 ```js
-var cloudtasks-node = require('cloudtasks-node');
+var cloudtasks = require('cloudtasks-node');
 
-cloudtasks-node('Rainbow');
-```
-
-```sh
-# creates a browser.js
-$ npm run browser
+app.use(cloudtasks.prerender('your site app id on cloudtasks.io'));
 ```
 
 
 ## License
 
-MIT © [João Ribeiro](https://jonnybgod.ghost.io)
+(The MIT License)
+
+Copyright (c) 2013 [Reality Connect](http://reality-connect.pt)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 [npm-url]: https://npmjs.org/package/cloudtasks-node
