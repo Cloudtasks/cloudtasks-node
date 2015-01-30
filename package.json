@@ -1,6 +1,6 @@
 {
   "name": "cloudtasks-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cloudtasks.io nodeJS SDK",
   "homepage": "https://cloudtasks.io",
   "author": {
