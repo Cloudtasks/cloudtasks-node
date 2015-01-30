@@ -15,8 +15,12 @@ $ npm install --save cloudtasks-node
 ```js
 var cloudtasks = require('cloudtasks-node');
 
-app.use(cloudtasks.prerender('your site app id on cloudtasks.io'));
+app.use(cloudtasks.prerender(token, options));
 ```
+
+## Options (optional) (JSON object)
+	
+ > sitemap: true|false (default: true)
 
 
 ## License
