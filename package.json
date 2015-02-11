@@ -1,6 +1,6 @@
 {
   "name": "cloudtasks-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cloudtasks.io nodeJS SDK",
   "homepage": "https://cloudtasks.io",
   "author": {
@@ -21,6 +21,7 @@
     "cloudtasks"
   ],
   "dependencies": {
+    "oauth": "^0.9.12",
     "request": "^2.51.0"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "load-grunt-tasks": "^1.0.0",
     "time-grunt": "^1.0.0",
     "grunt-mocha-cli": "^1.11.0",
+    "grunt-push-release": "latest",
     "jshint-stylish": "^1.0.0",
     "browserify": "^7.0.0"
   },
