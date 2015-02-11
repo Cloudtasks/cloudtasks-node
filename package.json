@@ -10,9 +10,6 @@
   },
   "repository": "Cloudtasks/cloudtasks-node",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "cloudtasks-node",
     "sdk",
@@ -36,6 +33,18 @@
     "jshint-stylish": "^1.0.0",
     "browserify": "^7.0.0"
   },
+  "keywords": [
+    "api",
+    "cloudtasks",
+    "prerender",
+    "seo",
+    "image processing",
+    "optimization"
+  ],
+  "bugs": {
+    "url": "https://github.com/Cloudtasks/cloudtasks-node/issues"
+  },
+  "homepage": "https://github.com/Cloudtasks/cloudtasks-node",
   "scripts": {
     "test": "grunt",
     "browser": "browserify index.js > browser.js"
